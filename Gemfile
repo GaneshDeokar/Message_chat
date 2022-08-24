@@ -64,9 +64,14 @@ group :development do
   # gem "spring"
 end
 
+gem 'hotwire-rails'
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'semantic-ui-sass'
+gem 'jquery-rails'
